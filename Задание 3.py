@@ -20,7 +20,7 @@ while True:
         print(min)
     print("Преобразование:")
     kol = spis.count(0)
-    spis = [elem for elem in spis if elem != 0]
+    spis = [i for i in spis if i != 0]
     for i in range(kol):
         spis.insert(0,0)
     print(spis)

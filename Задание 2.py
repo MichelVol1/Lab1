@@ -5,6 +5,9 @@ while True:
      break
  start = str.find("(")
  end = str.find(")")
+ if start == -1 or end == -1:
+     print(" В предложении есть только одна скобочка!!! ")
+     continue
  if start == end:
     print(" В предложении не скобочек!!! ")
     continue
